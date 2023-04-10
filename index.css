@@ -1,0 +1,15 @@
+@media print {
+  :has(.print-element) > :not(.print-element):not(:has(.print-element)) {
+    display: none;
+  }
+  .print-element-hide {
+    display: none;
+  }
+
+  :has(.print-element-vrr0av0v5xe) > :not(.print-element-vrr0av0v5xe):not(:has(.print-element-vrr0av0v5xe)) {
+    display: none;
+  }
+  .print-element-hide-vrr0av0v5xe {
+    display: none;
+  }
+}
